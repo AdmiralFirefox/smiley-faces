@@ -30,6 +30,7 @@ def app():
     st.write('Character recognition: Recognizing characters from different alphabets.')
     st.write("""Simple image classification: Classifying simple images into categories 
              like animal/non-animal, vehicle/non-vehicle, etc.""")
+    st.write("Test from web")
 
     # display choice of classifier
     clf = BernoulliNB() 
